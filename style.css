@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Geologica:wght@100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1E1E1E;
+
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    font-family: "Roboto", sans-serif;
+}
+
+.title img {
+    height: 8em;
+    border-radius: 25px;
+}
+
+header{
+    display: flex;
+    background: linear-gradient(90deg, #000000 24%, #4A4A4A 100%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+}
+
+nav{
+    display: flex;
+    gap:3em;
+
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 40px 5%;
+    gap:50px;
+    flex-wrap: wrap;   
+    color:white;
+}
+.hero img{
+    max-width: 400px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+}
+.hero-text{
+    font-family: 'Marck Script', cursive;
+    font-size: 1.7em;
+    line-height: 1.6;
+    flex:1 1 300px;
+
+}
+.features{
+    padding: 40px 5%;
+    text-align: center;
+    /*background: radial-gradient(circle, #2a2a2a, #111);*/
+    background: linear-gradient(270deg,#111,#17375E, #4c2e59, #00064c,#3f3f3f);
+    background-size:1000% 1000% ;
+    animation: gradientMove 20s ease infinite;
+    color: white;
+    flex-direction: column;
+
+}
+
+.features h2{
+
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.feature-list{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.feature-item{
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.feature-item h3{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.feature-item p{
+    margin-bottom: 2em;
+}
+
+.methods{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.methods h2{
+    color:white;
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+
+}
+
+.methods-title h3{
+    color: white;
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.methods-cards p{
+    padding: 1em;
+    color: white;
+    font-size: 1.3em;
+    background-color:#333;
+    border-radius:10px;
+}
+
+.methods-title{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.methods-title img {
+    flex:1 1 250px;
+    max-width: 400px;
+    border-radius: 15px;
+    
+
+}
+.up1{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-end;
+}
+@keyframes gradientMove {
+    0% {background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+
+}
+
+.up{
+    display: flex;
+    flex-direction: column ;
+}
+
+/*#000000
+/*https://doka.guide/css/transform-function/
+https://doka.guide/css/animation/
+
+https://doka.guide/css/keyframes/*/
